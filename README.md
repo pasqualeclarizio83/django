@@ -1,4 +1,4 @@
-# Django Basi complete
+# Django - Basi complete
 
 ### Start
 
@@ -9,8 +9,20 @@
 
 ```
 
-#### Creare il progetto
+#### Ambiente virtuale. COme lo chiamo? venv.
+#### Dipende dalla versione di python
 
 ```python
 
+python -m venv venv | python3.10 -m venv venv
+
+cd venv
+cd bin
+source activate
+
+```
+#### Ambiente virtuale attivo. è importante
+
+```python
+(venv)
 ```
