@@ -5,7 +5,7 @@
 #### O.S. Linux
 
 
-[Immagine](https://github.com/pasqualeclarizio83/django/blob/main/start.png)
+[Start](https://github.com/pasqualeclarizio83/django/blob/main/start.png)
 
 
 
@@ -27,7 +27,5 @@ source activate
 (venv)
 ```
 
-```
-[Immagine](https://github.com/pasqualeclarizio83/django/blob/main/venv.png)
 
-```
+[Ambiente Virtuale](https://github.com/pasqualeclarizio83/django/blob/main/venv.png)
