@@ -4,10 +4,10 @@
 
 #### O.S. Linux
 
-```
+
 [Immagine](https://github.com/pasqualeclarizio83/django/blob/main/start.png)
 
-```
+
 
 #### Ambiente virtuale. COme lo chiamo? venv.
 #### Dipende dalla versione di python
