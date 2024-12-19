@@ -26,3 +26,8 @@ source activate
 ```python
 (venv)
 ```
+
+```
+[Ambiente virtuale](https://github.com/pasqualeclarizio83/django/blob/main/venv.png)
+
+```
