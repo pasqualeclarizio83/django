@@ -29,3 +29,11 @@ source activate
 
 
 [Ambiente Virtuale](https://github.com/pasqualeclarizio83/django/blob/main/venv.png)
+
+#### E' bene installare il modulo del Framework Django
+
+```python
+pip install Django==3.2.15
+```
+
+[Installato Django](https://github.com/pasqualeclarizio83/django/blob/main/django_install.png)
