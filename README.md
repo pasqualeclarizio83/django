@@ -133,6 +133,19 @@ python manage.py makemigrations
 
 #### E dopo
 
+[Models dove](https://github.com/pasqualeclarizio83/django/blob/main/models_dove.png)
+
 ```python
 python manage.py migrate
 ```
+
+#### Lanciato il seguente comando, tutte le rispettive Entità, ovvero i Models
+#### saranno creati all'interno del DB. In questo caso è SQLLite. Il Db di Default di Django
+
+[migrate](https://github.com/pasqualeclarizio83/django/blob/main/cmd_migrate.png)
+
+#### settings per il database? SQlLite?
+
+#### nuovo_progetto -> settings.py
+
+[SqlLite](https://github.com/pasqualeclarizio83/django/blob/main/sqllite.png)
