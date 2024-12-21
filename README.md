@@ -86,8 +86,14 @@ INSTALLED_APPS = [
 
 [Struttura](https://github.com/pasqualeclarizio83/django/blob/main/settings.png)
 
+#### Lanciando il seguente comando
+
 ```python
 python3.10 manage.py runserver
 ```
 
 [Runserver](https://github.com/pasqualeclarizio83/django/blob/main/runserver.png)
+
+#### Apparirà una schermata simile a questa
+
+[Home](https://github.com/pasqualeclarizio83/django/blob/main/home.png)
