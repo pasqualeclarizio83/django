@@ -38,6 +38,14 @@ pip install Django==3.2.15
 
 [Installato Django](https://github.com/pasqualeclarizio83/django/blob/main/django_install.png)
 
+#### Verificare che i pip siano installati?
+
+```python
+pip list
+```
+
+[pip list](https://github.com/pasqualeclarizio83/django/blob/main/pip_list.png)
+
 #### Creamo il primo progetto. L'ho chiamato "nuovo_progetto"
 
 ```python
@@ -147,5 +155,14 @@ python manage.py migrate
 #### settings per il database? SQlLite?
 
 #### nuovo_progetto -> settings.py
+
+```python
+DATABASES = {
+    'default': {
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': BASE_DIR / 'db.sqlite3',
+    }
+}
+```
 
 [SqlLite](https://github.com/pasqualeclarizio83/django/blob/main/sqllite.png)
