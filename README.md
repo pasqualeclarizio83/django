@@ -61,5 +61,33 @@ python manage.py startapp nuova_app
 
 [Creata App](https://github.com/pasqualeclarizio83/django/blob/main/creata_app.png)
 
+#### Questo creerà una nuova directory chiamata nuova_app all'interno del tuo progetto, contenente i file necessari per la tua applicazione.
+
+#### Dopo aver creato la nuova Applicazione
+
 
 [Struttura Progetto](https://github.com/pasqualeclarizio83/django/blob/main/struttura.png)
+
+#### Apri il file nuovo_progetto/settings.py con un editor di testo e aggiungi 'nuova_app' alla lista INSTALLED_APPS:
+
+[Settings è importante](https://github.com/pasqualeclarizio83/django/blob/main/settings.png)
+
+```python
+INSTALLED_APPS = [
+    'django.contrib.admin',
+    'django.contrib.auth',
+    'django.contrib.contenttypes',
+    'django.contrib.sessions',
+    'django.contrib.messages',
+    'django.contrib.staticfiles',
+
+    'nuova_app',
+```
+
+[Struttura](https://github.com/pasqualeclarizio83/django/blob/main/settings.png)
+
+```python
+python3.10 manage.py runserver
+```
+
+[Runserver](https://github.com/pasqualeclarizio83/django/blob/main/runserver.png)
