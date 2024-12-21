@@ -166,3 +166,21 @@ DATABASES = {
 ```
 
 [SqlLite](https://github.com/pasqualeclarizio83/django/blob/main/sqllite.png)
+
+### DB: MySQL
+
+#### E' necessario sicuramente, creare prima il database su MySQL DB
+
+#### Accediamo
+
+[MySQLDB](https://github.com/pasqualeclarizio83/django/blob/main/mysqldb.png)
+
+#### Creare il database: example
+
+[Example Db](https://github.com/pasqualeclarizio83/django/blob/main/mysql_db.png)
+
+#### nuovo_progetto -> settings.py
+
+
+
+
