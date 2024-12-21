@@ -97,3 +97,42 @@ python3.10 manage.py runserver
 #### Apparirà una schermata simile a questa
 
 [Home](https://github.com/pasqualeclarizio83/django/blob/main/home.png)
+
+#### 1. Creo una tabella: Clienti
+#### 2. Creo il modello, quindi il model
+#### 3. Creo il Layout e tutto il resto
+
+#### Andiamo passo passo.
+
+#### Apri il file models.py della tua app (nuova_app/models.py) e aggiungi la seguente classe:
+
+```python
+from django.db import models
+
+class Cliente(models.Model):
+    nome = models.CharField(max_length=100)
+    cognome = models.CharField(max_length=100)
+    email = models.EmailField(unique=True)
+    telefono = models.CharField(max_length=20, blank=True, null=True)
+    indirizzo = models.TextField(blank=True, null=True)
+    data_creazione = models.DateTimeField(auto_now_add=True)
+
+    def __str__(self):
+        return f"{self.nome} {self.cognome}"
+```
+
+[Models](https://github.com/pasqualeclarizio83/django/blob/main/models.png)
+
+#### Dopo aver creato il model, è bene applicare le modifiche! Integrarle!
+
+```python
+python manage.py makemigrations
+```
+
+[Cosa appare?](https://github.com/pasqualeclarizio83/django/blob/main/models.png)
+
+#### E dopo
+
+```python
+python manage.py migrate
+```
